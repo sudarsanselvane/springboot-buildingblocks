@@ -16,6 +16,7 @@ public class UserDetails {
 	}
 	
 	
+	
 	//Getters and setters
 	public String getFirstname() {
 		return firstname;
@@ -29,17 +30,17 @@ public class UserDetails {
 	public void setLastname(String lastname) {
 		this.lastname = lastname;
 	}
-	public String getCity() {
+/*	public String getCity() {
 		return city;
 	}
 	public void setCity(String city) {
 		this.city = city;
 	}
-	
+*/	
 	// To String
 	@Override
 	public String toString() {
-		return "UserDetails [firstname=" + firstname + ", lastname=" + lastname + ", city=" + city + "]";
+		return "UserDetails [firstname=" + firstname + ", lastname=" + lastname + ", city=" + "dummy" + "]";
 	}
 	
 	
